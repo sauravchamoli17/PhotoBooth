@@ -55,6 +55,7 @@ function takePhoto() {
     link.setAttribute('download', 'handsome');
     link.innerHTML = `<img src="${data}" alt="Handsome Man!" />`;
     strip.insertBefore(link, strip.firstChild);
+    window.scrollTo(0,document.body.scrollHeight);
 }
 
 getVideo();
