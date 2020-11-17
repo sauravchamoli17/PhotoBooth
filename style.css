@@ -51,10 +51,16 @@ button:hover{
 }
 
 .rgb{
-    margin-top:20px;
+    margin-top:18px;
     position: absolute;
     top:45px;
     left:0;
+}
+
+h2{
+    color:#fff;
+    margin:5px;
+    text-align: center;
 }
 
 label{
@@ -63,6 +69,13 @@ label{
     margin:20px 0px 0px 20px;
 }
 
+.filters{
+    display: flex;
+}
+
+.filters button{
+    margin:10px 20px 10px 20px;
+}
 
 video{
     width:22%;
@@ -74,7 +87,7 @@ video{
 canvas{
     display: block;
     margin: 0 auto;
-    margin-top:75px;
+    margin-top:90px;
     margin-bottom:40px;
 }
 .strip{
@@ -83,6 +96,7 @@ canvas{
     margin:0 auto;
     margin-bottom:40px;
     padding:20px 20px 12px 20px;
+    border-radius: 5px;
 }
 a{
   color:white;
